@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROFILE</title>
+	<style type="text/css">
+		html {
+			font-family: 'Gotham SSm A','Gotham SSm B',"Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+			height: 100%;
+			position: relative;
+			overflow: hidden;
+		    font-size: 12px;
+		    font-weight: 400;
+		}
+		
+		body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.main-container {
+			width : 100%;
+			height: 100%;
+		}
+
+		.left-container {
+			width: 20%;
+			height: 100%;
+			background: #213540;
+			float: left;
+			padding: 1%;
+		}
+		.right-container {
+			width: 78%;
+			min-height: 100%;
+			background: #dedede;
+			float: left;
+		}
+
+		.img-container {
+			width: 100%;
+			min-height: 20%;
+		}
+
+		.img-box {
+			min-height: 80%;
+		}
+
+		.identity-box {
+			min-height: 20%;
+			text-align: center;
+			font-size: 25px;
+			color: #EFEFEF;
+			text-transform: uppercase;
+		}
+
+		.img {
+			text-align: center;
+		}
+
+		img {
+			margin-top: 7%;
+		}
+
+		ul {
+			list-style: none;
+			padding: 10px;
+			height: 100%;
+		}
+
+		.nav-box {
+			min-height: 100%;
+		}
+
+		.nav-box > ul > li {
+			height: 16px;
+			color: #FFF;
+			background: linear-gradient(#222, #111) repeat scroll 0 0 rgba(0, 0, 0, 0);
+			padding: 20px 27px;
+			font-size: 13px;
+			letter-spacing: 2px;
+			border-left: 4px solid #F00;
+			margin: 20px 0;
+		}
+
+		.nav-box > ul > li:hover {
+			
+		}
+
+		.nav-box > ul > li.active {
+			
+		}
+
+		.arrow-right {
+			width: 0;
+			height: 0;
+			border-top: 28px solid rgba(0, 0, 0, 0);
+			border-bottom: 28px solid rgba(0, 0, 0, 0);
+			border-left: 28px solid #222;
+			float: right;
+			margin-right: -55px;
+			margin-top: -20px;
+		}
+
+		.data-main-container {
+			padding: 10px;
+		}
+
+		.data-head {
+			padding: 0 3%;
+			text-transform: uppercase;
+			color: #494949;
+		}
+
+		h2 {
+			font-size: 42px;
+			padding: 0;
+			margin: 0;
+		}
+
+		.data-body {
+			width: 95%;
+			height: 300px;
+			margin: 1% 3%;
+			background: #EFEFEF;
+			border: 1px solid #ADACA3;
+			box-shadow: 0px 0px 19px 1px #ADADAD inset;
+			border-radius: 10px;
+		}
+
+		.container-deactive {
+			display: block;
+		}
+
+		.container-deactive {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<div class="left-container">
+			<div class="img-container">
+				<div class="img-box">
+					<div class="img">
+						<img src="img/DP.jpg" />
+					</div>
+				</div>
+				<div class="identity-box">Shafin Maredia</div>
+			</div>
+
+			<div class="nav-box">
+				<ul>
+					<li class="active">Tab 1</li>
+					<li>Tab 2</li>
+					<li>Tab 3</li>
+				</ul>
+			</div>	
+		</div>
+		<div class="right-container">
+		
+		<div class="data-main-container container-active">
+			<div class="data-head">
+				<h2>Tab 1</h2>	
+			</div>
+			<div class="data-body"></div>
+		</div>
+
+		<div class="data-main-container container-deactive">
+			<div class="data-head">
+				<h2>Tab 2</h2>	
+			</div>
+			<div class="data-body"></div>
+		</div>
+
+		<div class="data-main-container container-deactive">
+			<div class="data-head">
+				<h2>Tab 3</h2>	
+			</div>
+			<div class="data-body"></div>
+		</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
